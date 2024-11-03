@@ -1,0 +1,46 @@
+/* Login.css */
+
+body {
+  background-color: #1a1a1a; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  font-family: 'Arial', sans-serif; /* Fuente simple */
+}
+
+form {
+  background-color: #2b2b2b; /* Fondo del formulario */
+  border: 2px solid #ffcc00; /* Borde amarillo */
+  border-radius: 10px;
+  padding: 30px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.5); /* Sombra */
+}
+
+h1 {
+  text-align: center;
+  color: #ffcc00; /* Título amarillo */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ffcc00; /* Borde amarillo */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #333; /* Fondo de los inputs */
+  color: #ffffff; /* Texto blanco */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffcc00; /* Fondo amarillo */
+  color: #000; /* Texto negro */
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar */
+}
+
+button:hover {
+  background-color: #e6b800; /* Color más oscuro al pasar el ratón */
+}
